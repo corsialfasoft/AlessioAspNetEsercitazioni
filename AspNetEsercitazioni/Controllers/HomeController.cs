@@ -21,5 +21,10 @@ namespace AspNetEsercitazioni.Controllers {
 
             return View();
         }
+        public ActionResult MiaPagina() {
+            ViewBag.Message = "La mia pagina";
+
+            return View();
+        }
     }
 }
